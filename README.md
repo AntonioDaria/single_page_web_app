@@ -7,3 +7,10 @@ I have created a simple sinatra app that
 - You can click the button and data from `https://async-workshops-api.herokuapp.com/people` shows up on the page without refreshing.
 
 Public interface button component tested with capybara testing framework
+
+## Model of the flow for this project
+
+```
+![image](https://user-images.githubusercontent.com/24396579/46586879-87ecd200-ca7c-11e8-8be9-0b95f139b507.png)
+
+```
