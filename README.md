@@ -1,4 +1,4 @@
-### Single page web app
+## Single page web app
 
 This is an exploratory task.
 
@@ -8,9 +8,7 @@ I have created a simple sinatra app that
 
 Public interface button component tested with capybara testing framework
 
-## Model of the flow for this project
+### Model of the flow for this project
 
-```
+
 ![image](https://user-images.githubusercontent.com/24396579/46586879-87ecd200-ca7c-11e8-8be9-0b95f139b507.png)
-
-```
