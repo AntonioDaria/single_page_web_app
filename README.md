@@ -15,14 +15,14 @@ Public interface button component tested with capybara testing framework
 
 
 ### How to run
-Clone this repo
-Navigate to project directory and run command rackup to run launch the server
-run on localhost
+- Clone this repo
+- Navigate to project directory and run command rackup to run launch the server
+- run on localhost
 
 ### Technologies used Model of the flow for this project
 
-Sinatra DSL
-Capybara for feature test
-JavaScript
-Jquery
-Ajax
+- Sinatra DSL
+- Capybara for feature test
+- JavaScript
+- Jquery
+- Ajax
