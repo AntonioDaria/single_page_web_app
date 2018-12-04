@@ -1,14 +1,16 @@
 $(document).ready(function() {
 
     $('#View').click(function(){
-      $.get("https://async-workshops-api.herokuapp.com/people", function(data) {
-        var txt = ''
-        data.forEach(function(person) {
-          txt += person.name + " "
-          $('#result').text(txt)
-        })
+      $.ajax({
+    				  method:'GET',
+    				  url: 'https://async-workshops-api.herokuapp.com/people',
+    				  dataType: 'json'
+    	}).done(function(data){
+    				  $.map(data, function(name, i){
+    					       $('#result').append('<h3>'+name.name+'</h3><p>');
+    				  });
 
-      })
 
+    	});
     })
-});
+  });
